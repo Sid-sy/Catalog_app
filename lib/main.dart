@@ -13,10 +13,16 @@ class MyApp extends StatelessWidget {
       home: Material(
         child: Center(
           child: Container(
-            child: Text("Hello Google"),
+            // child: Text("Hello Google"),
+            child: (
+                Text("Hey Buddy Its Looking Cool"
+                    " That You Have Finally Started Working On The Projects "),
+            ),
+
+          ),
           ),
         ),
-      ),
+
     );
   }
 }
